@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+/*font-family: 'Lato', sans-serif;*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.lnd-temp {
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+.M-lnd-temp-2-44-wrapper-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 700px) {
+  .M-lnd-temp-2-44-wrapper-inner {
+    flex-wrap: wrap;
+  }
+}
+.M-lnd-temp-2-44-column-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 25%;
+  padding: 2% 0;
+  flex-grow: 0;
+  justify-content: flex-start;
+}
+@media screen and (max-width: 700px) {
+  .M-lnd-temp-2-44-column-cont {
+    width: 50%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 350px) {
+  .M-lnd-temp-2-44-column-cont {
+    width: 100%;
+  }
+}
+.M-lnd-temp-2-44-column-cont:nth-child(1) {
+  margin-top: 8%;
+}
+.M-lnd-temp-2-44-column-cont:nth-child(2) {
+  margin-top: 12%;
+}
+@media screen and (max-width: 350px) {
+  .M-lnd-temp-2-44-column-cont:nth-child(2) {
+    margin-top: 0;
+  }
+}
+.M-lnd-temp-2-44-column-cont:nth-child(3) {
+  margin-top: 4%;
+}
+@media screen and (max-width: 700px) {
+  .M-lnd-temp-2-44-column-cont:nth-child(3) {
+    margin-top: -4%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .M-lnd-temp-2-44-column-cont:nth-child(3) {
+    margin-top: 0;
+  }
+}
+.M-lnd-temp-2-44-column-cont:nth-child(4) {
+  margin-top: 16%;
+}
+@media screen and (max-width: 700px) {
+  .M-lnd-temp-2-44-column-cont:nth-child(4) {
+    margin-top: 0;
+  }
+}
+.M-lnd-temp-2-44-column-cont:nth-child(4n+5) {
+  margin-top: -11%;
+}
+@media screen and (max-width: 700px) {
+  .M-lnd-temp-2-44-column-cont:nth-child(4n+5) {
+    margin-top: -4%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .M-lnd-temp-2-44-column-cont:nth-child(4n+5) {
+    margin-top: 0;
+  }
+}
+.M-lnd-temp-2-44-column-cont:nth-child(4n+5) .M-lnd-temp-2-44-img-cont {
+  margin-left: 0;
+}
+.M-lnd-temp-2-44-column-cont:nth-child(4n+6) {
+  margin-top: -7%;
+}
+@media screen and (max-width: 700px) {
+  .M-lnd-temp-2-44-column-cont:nth-child(4n+6) {
+    margin-top: 0;
+  }
+}
+.M-lnd-temp-2-44-column-cont:nth-child(4n+7) {
+  margin-top: -15%;
+}
+@media screen and (max-width: 700px) {
+  .M-lnd-temp-2-44-column-cont:nth-child(4n+7) {
+    margin-top: -4%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .M-lnd-temp-2-44-column-cont:nth-child(4n+7) {
+    margin-top: 0;
+  }
+}
+.M-lnd-temp-2-44-column-cont:nth-child(4n+8) {
+  margin-top: -3%;
+}
+@media screen and (max-width: 700px) {
+  .M-lnd-temp-2-44-column-cont:nth-child(4n+8) {
+    margin-top: 0;
+  }
+}
+.M-lnd-temp-2-44-img-cont {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*padding-bottom: 100%;*/
+  padding-bottom: 150%;
+  flex-basis: 25%;
+  flex-grow: 1;
+  margin-bottom: 4%;
+  margin-left: 4%;
+}
+@media screen and (max-width: 350px) {
+  .M-lnd-temp-2-44-img-cont {
+    padding-bottom: 100%;
+    margin-left: 0;
+  }
+}
+.M-lnd-temp-2-44-img-cont:last-child {
+  margin-bottom: 0;
+}
+@media screen and (max-width: 700px) {
+  .M-lnd-temp-2-44-img-cont:last-child {
+    margin-bottom: 4%;
+  }
+}
+.M-lnd-temp-2-44-column-cont:first-child .M-lnd-temp-2-44-img-cont {
+  margin-left: 0;
+}
+@media screen and (max-width: 700px) {
+  .M-lnd-temp-2-44-column-cont:nth-child(odd) .M-lnd-temp-2-44-img-cont {
+    margin-left: 0;
+  }
+}
+.M-lnd-temp-2-44-img-cont-1 {
+  background-image: url("photos/woman1.jpg");
+}
+.M-lnd-temp-2-44-img-cont-2 {
+  background-image: url("photos/woman2.jpg");
+}
+.M-lnd-temp-2-44-img-cont-3 {
+  background-image: url("photos/woman3.jpg");
+}
+.M-lnd-temp-2-44-img-cont-4 {
+  background-image: url("photos/woman4.jpg");
+}
+.M-lnd-temp-2-44-img-cont-5 {
+  background-image: url("photos/woman5.jpg");
+}
+.M-lnd-temp-2-44-img-cont-6 {
+  background-image: url("photos/woman6.jpg");
+}
+.M-lnd-temp-2-44-img-cont-7 {
+  background-image: url("photos/woman7.jpg");
+}
+.M-lnd-temp-2-44-img-cont-8 {
+  background-image: url("photos/woman8.jpg");
+}
+.M-lnd-temp-2-44-img-cont-9 {
+  background-image: url("photos/woman9.jpg");
+}
+.M-lnd-temp-2-44-img-cont-10 {
+  background-image: url("photos/woman10.jpg");
+}
+.M-lnd-temp-2-44-img-cont-11 {
+  background-image: url("photos/woman11.jpg");
+}
+.M-lnd-temp-2-44-img-cont-12 {
+  background-image: url("photos/woman12.jpg");
+}
+
+#loading-cont{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  -webkit-transition: opacity 0.5s, height 0.5s;
+  transition: opacity 0.5s, height 0.5s;
+}
+
+.loading-text{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.hidden{
+  display: none;
+}
